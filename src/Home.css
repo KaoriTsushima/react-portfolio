@@ -18,3 +18,12 @@
 .picture-container {
   max-width: 300px;
 }
+.icon-color {
+  color: black;
+}
+.icon-color:hover,
+.greeting h2,
+.greeting h3,
+.greeting h4 {
+  color: rgb(67, 67, 67);
+}
