@@ -6,7 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function AboutMe() {
   return (
-    <div className="about-me">
+    <div className="about-me pt-3 pb-1">
       <h1>About me</h1>
       <div className="d-flex flex-wrap align-items-center justify-content-center gap-5 mt-5 mb-5 ms-2 me-2">
         <div className="about-me-contents">

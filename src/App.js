@@ -12,10 +12,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Home />
 
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/cv" element={<CV />} />
