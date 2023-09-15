@@ -27,3 +27,6 @@
 .greeting h4 {
   color: rgb(67, 67, 67);
 }
+.icon-color:hover {
+  transition: all 150ms ease-in-out;
+}

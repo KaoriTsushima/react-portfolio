@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-// import ReactDOM from "react-dom";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";

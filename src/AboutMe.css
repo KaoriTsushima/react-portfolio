@@ -1,0 +1,10 @@
+.about-me-contents {
+  max-width: 600px;
+  text-align: left;
+}
+.photo {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 10px 5px 5px rgb(115, 114, 114, 0.7);
+}
