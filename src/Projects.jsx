@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 export default function Projects() {
   return (
-    <div className="projects pt-3">
+    <div className="projects pt-3 pb-5">
       <h1>Projects</h1>
       <div className="d-flex flex-wrap align-items-center justify-content-center gap-5 mt-5">
         <div>
