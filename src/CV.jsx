@@ -1,19 +1,20 @@
 import React from "react";
 import "./CV.css";
-import { Document } from "react-pdf";
+import myCV from "./Resume-Kaori.pdf";
 export default function CV() {
   return (
     <div className="cv pt-3 pb-4">
       <h1>CV</h1>
-      {/* <a
+
+      <a
+        href={myCV}
+        download="Resume-Kaori.pdf"
         class="btn btn-primary"
         role="button"
         target="_blank"
-        href=".\Resume-Kaori.pdf"
       >
-        <Document file="./Resume-Kaori.pdf" />
         Download CV
-      </a> */}
+      </a>
     </div>
   );
 }
