@@ -9,3 +9,15 @@
     rgb(200, 247, 242) 103.6%
   );
 }
+.cv-contents li {
+  text-align: left;
+  list-style-type: none;
+}
+.cv-contents ul li::before {
+  content: "\f004";
+  font-family: "Font Awesome 5 Free";
+  padding: 0 10px 0 0;
+}
+.education-contents {
+  text-align: left;
+}
