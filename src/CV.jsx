@@ -1,6 +1,7 @@
 import React from "react";
 import "./CV.css";
 import myCV from "./Resume-Kaori.pdf";
+import WorkExperience from "./WorkExperience";
 
 export default function CV() {
   return (
@@ -16,7 +17,7 @@ export default function CV() {
       >
         Download CV
       </a>
-      <div className="d-flex flex-wrap align-items-center justify-content-center gap-4 mt-5">
+      <div className="d-flex flex-wrap align-items-start justify-content-center gap-4 mt-5">
         <div className="d-flex flex-column gap-3 cv-contents">
           <div>
             <h2>Education</h2>
@@ -70,6 +71,7 @@ export default function CV() {
         </div>
         <div>
           <h2>Work Experience</h2>
+          <WorkExperience />
         </div>
       </div>
     </div>
