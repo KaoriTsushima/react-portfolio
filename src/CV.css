@@ -21,3 +21,7 @@
 .education-contents {
   text-align: left;
 }
+.cv-contents h2 {
+  color: blueviolet;
+  font-weight: bold;
+}

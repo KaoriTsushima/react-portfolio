@@ -14,6 +14,7 @@ export default function CV() {
         class="btn btn-primary"
         role="button"
         target="_blank"
+        rel="noreferrer"
       >
         Download CV
       </a>
@@ -69,7 +70,7 @@ export default function CV() {
             </ul>
           </div>
         </div>
-        <div>
+        <div className="cv-contents">
           <h2>Work Experience</h2>
           <WorkExperience />
         </div>
