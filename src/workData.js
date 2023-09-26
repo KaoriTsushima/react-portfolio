@@ -1,10 +1,10 @@
-export const workExperienceData = [
+export const workData = [
   {
     company: "Pole to Win",
     role: "Tester",
     startEnd: "Sep 2019 - present",
     location: "Glasgow, UK",
-    duty: [
+    duties: [
       "Report gaming bugs using Jira",
       "Manage daily tasks and deadline as a team",
     ],
@@ -14,14 +14,14 @@ export const workExperienceData = [
     role: "Healthcare Support Worker",
     startEnd: "Nov 2021 - Mar 2023",
     location: "Glasgow, UK",
-    duty: ["Support patients' daily life", "Assist nursing work"],
+    duties: ["Support patients' daily life", "Assist nursing work"],
   },
   {
     company: "HC One",
     role: "Care Assisstant",
     startEnd: "Mar 2021 - Sep 2021",
     location: "Glasgow, UK",
-    duty: [
+    duties: [
       "Support residents' daily life",
       "Improve residents' quality of life",
     ],
@@ -31,7 +31,7 @@ export const workExperienceData = [
     role: "Certified Nurse",
     startEnd: "Dec 2014 - Mar 2019",
     location: "Tokyo, Japan",
-    duty: [
+    duties: [
       "Analyse and manage prevalence of pressure ulcers",
       "Educate staff",
       "Treat wounds as a lead nurse",
@@ -43,6 +43,6 @@ export const workExperienceData = [
     role: "Staff Nurse",
     startEnd: "Apr 2010 - Nov 2014",
     location: "Tokyo, Japan",
-    duty: ["Provide nursing skills to patients"],
+    duties: ["Provide nursing skills to patients"],
   },
 ];
