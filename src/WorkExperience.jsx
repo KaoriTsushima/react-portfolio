@@ -1,4 +1,5 @@
 import React from "react";
+import "./WorkExperience.css";
 import { workData } from "./workData.js";
 
 export default function WorkExperience() {
@@ -7,9 +8,7 @@ export default function WorkExperience() {
       <h3>{data.company}</h3>
       <h4>{data.role}</h4>
       <p>
-        {data.startEnd}
-        {""}
-        {data.location}
+        {data.startEnd} <strong>{data.location}</strong>
       </p>
       <ul>
         {data.duties.map(function (duty) {

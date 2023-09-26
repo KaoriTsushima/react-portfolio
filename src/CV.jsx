@@ -18,20 +18,26 @@ export default function CV() {
       >
         Download CV
       </a>
-      <div className="d-flex flex-wrap align-items-start justify-content-center gap-4 mt-5">
-        <div className="d-flex flex-column gap-3 cv-contents">
+      <div className="d-flex flex-wrap align-items-start justify-content-center gap-5 mt-5 ">
+        <div className="d-flex flex-column gap-3  cv-contents">
           <div>
             <h2>Education</h2>
             <div className="education-contents">
               <h3>SheCodes</h3>
               <h4>Front-end Development</h4>
-              <p>Mar 2023 - Aug 2023</p>
+              <p>
+                Mar 2023 - Aug 2023 <strong>Online, UK</strong>
+              </p>
               <h3>University of Glasgow</h3>
               <h4>MSc in Global Health</h4>
-              <p>Sep 2019 - Dec 2020 Glasgow, UK</p>
+              <p>
+                Sep 2019 - Dec 2020 <strong>Glasgow, UK</strong>
+              </p>
               <h3>Tokyo Healthcare University</h3>
               <h4>Bachelor of Nursing</h4>
-              <p>Apr 2006 - Mar 2010 Tokyo, Japan</p>
+              <p>
+                Apr 2006 - Mar 2010 <strong>Tokyo, Japan</strong>
+              </p>
             </div>
           </div>
           <div>
@@ -53,6 +59,12 @@ export default function CV() {
             <h2>Additional Information</h2>
             <ul>
               <li>
+                Native Japanese <i class="fa-solid fa-bowl-rice"></i>
+              </li>
+              <li>
+                English (IELTS: 6.5) <i class="fa-solid fa-language"></i>
+              </li>
+              <li>
                 Play Chess / Japanese Chess <i class="fa-solid fa-chess"></i>{" "}
               </li>
               <li>
@@ -65,7 +77,8 @@ export default function CV() {
                 Love Animals <i class="fa-solid fa-paw"></i>
               </li>
               <li>
-                Great Nursing Skills <i class="fa-solid fa-user-nurse"></i>
+                Great Nursing Skills (including BLS){" "}
+                <i class="fa-solid fa-user-nurse"></i>
               </li>
             </ul>
           </div>
