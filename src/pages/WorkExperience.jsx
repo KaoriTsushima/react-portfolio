@@ -1,6 +1,6 @@
 import React from "react";
-import "./WorkExperience.css";
-import { workData } from "./workData.js";
+import "../styles//WorkExperience.css";
+import { workData } from "../workData.js";
 
 export default function WorkExperience() {
   return workData.map((data) => (

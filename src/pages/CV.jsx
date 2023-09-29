@@ -1,6 +1,6 @@
 import React from "react";
-import "./CV.css";
-import myCV from "./Resume-Kaori.pdf";
+import "../styles/CV.css";
+import myCV from "../Resume-Kaori.pdf";
 import WorkExperience from "./WorkExperience";
 
 export default function CV() {

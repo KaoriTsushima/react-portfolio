@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css";
+import "../styles/Projects.css";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 export default function Projects() {

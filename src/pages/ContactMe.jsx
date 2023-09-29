@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import "./ContactMe.css";
+import "../styles//ContactMe.css";
 export default function CntactMe() {
   return (
     <div className="contact-me pt-3 pb-4">
